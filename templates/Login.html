@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BrainWaveGames</title>
+	<link rel="stylesheet" type="text/css" href="/home/student/Desktop/Personal Project/BWG/stylesheets/Login.css">
+</head>
+<body>
+<!--Website Header-->
+<h1>Welcome To <br>BrainWaveGames</h1>
+
+<!--Login Slab-->
+<div class="Login">
+<h2>Log In</h2>
+
+<form action = "{{url_for('home')}}" method="post">
+	<div class="container">
+
+	<!--Username-->
+		<label><b>Username:</b></label>
+		<input type="text" placeholder="Enter Username" name="uname" required>
+		<br> <br>
+	<!--Password-->	
+		<label><b>Password:</b></label>
+		<input type="Password" placeholder="Enter Password" name="psw" required>
+		<br><br>
+	<!--Submit-->
+		<button type="submit">Login</button>
+	</div>
+
+	<div class="container">
+    <span class="psw"> <a href="/">Forgot password?</a></span>
+  	</div>
+
+</div>
+</form>
+
+<!--Sign Up Slab-->
+<div class="SignUp">
+<h2>Sign Up</h2>
+
+<form action = "{{url_for('home')}}" method="post">
+	<div class="container">
+	<p>Please fill this form to create a BrainWaveGames account</p>
+	<hr>
+
+	<!--Email-->
+	<label><b>Email:</b></label>
+	<input type="text" placeholder="Enter Email" name="email" required>
+	<br><br>
+	<!--Username-->
+	<label><b>Username:</b></label>
+	<input type="text" placeholder="Enter Username" name="uname" required>
+	<br> <br>
+	<!--Password-->	
+	<label><b>Password:</b></label>
+	<input type="Password" placeholder="Enter Password" name="psw" required>
+	<br><br>
+	<!--Age-->
+	<label><b>Birthday Date:</b></label>
+	<input type="date" name="bday" required>
+	<br><br>
+	<!--Gender-->
+	<label><b>Gender:</b></label>
+	<input type="radio" name="gender" value="male" required>Male
+	<input type="radio" name="gender" value="female" required>Female
+	<input type="radio" name="gender" value="other" required>Other
+	<br><br>
+	<!--Signupbtn-->
+	<button type="submit" class="Signupbtn">Sign Up</button>
+
+
+
+</div>	
+</form>
+
+
+</body>
+</html>
