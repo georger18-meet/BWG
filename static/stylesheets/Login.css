@@ -1,0 +1,29 @@
+body{
+	background-color: ;
+
+}
+
+h1{
+	text-align: center;
+	background-color: orange;
+	border-style: outset;
+	width: 50%;
+	margin-left: 25%;
+}
+
+.Login{
+	border-style: groove;
+	border-color: blue;
+	width: 49.7%;
+	text-align: center;
+}
+
+.SignUp{
+	border-style: groove;
+	border-color: green;
+	margin-left: 50%;
+	width: 50%;
+	margin-top: -190px;
+	text-align: center;
+	height: 500px;
+}
