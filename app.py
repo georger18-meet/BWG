@@ -53,6 +53,14 @@ def signup():
 def logout():
 	return redirect('/')
 
+@app.route('/snakegame')
+def snakegame():
+	return render_template('Snake.html')
+
+@app.route('/about')
+def about():
+	return render_template('About.html')
+
 
 db.create_all()
 

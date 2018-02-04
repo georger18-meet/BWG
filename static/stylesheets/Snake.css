@@ -1,0 +1,52 @@
+body {
+  text-align:center;
+  font-family: helvetica;
+  background-color: orange;
+}
+
+canvas {
+  border: 2px solid rgb(151, 149, 149);
+}
+
+h1{
+	color: navy;
+	border-style: inset;
+	border-color: navy;
+	background-color:  #e68a00;
+	border-radius: 50px;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: -20px;
+	margin-bottom: 9px;
+}
+
+h2{
+	margin-bottom: -5px;
+	color: lime;
+	text-shadow: 2px 2px green;
+
+}
+
+li{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: lime;
+	text-shadow: 2px 1px green;
+}
+
+h3{
+	color: lime;
+	text-shadow: 2px 2px green;
+}
+
+.potato{
+	border-style: outset;
+	border-color: lime;
+	border-radius: 50px;
+	margin-top: 9px;
+	background-color: #e68a22
+}
+
+.topnav{
+	margin-right: 95%;
+}

@@ -1,0 +1,11 @@
+img{
+	border-style: groove;
+	border-color: black;
+	border-radius: 50%;
+	box-shadow: 5px 10px gray;
+
+}
+
+h2{
+	text-shadow: 1px 1px gray;
+}

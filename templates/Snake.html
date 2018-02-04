@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Snake Game</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='stylesheets/Snake.css')}}">
+
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+    <a href="/logout" class="btn btn-info btn-lg">
+    <span class="glyphicon glyphicon-log-out"></span> Logout</a>
+</div>
+
+<h1>The Legendary Snake Game</h1>
+<canvas id="stage" height="350" width="520"></canvas>
+
+<div class="potato">
+<h2>How To Play:</h2>
+<li>Your goal is to eat the apple(Green Dot)</li>
+<li>Use your arrow keys(←↕→) to move The Snake</li>
+<li>Hitting the walls will restart your game and score. Do your best to not hit them</li>
+<h3>Most importantly Have Fun!</h3>
+</div>
+
+
+
+<script src="{{url_for('static',filename='stylesheets/Snake.js')}}" type="text/javascript"></script>
+
+</body>
+</html>
